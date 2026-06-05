@@ -1,0 +1,11 @@
+name: Hello World con la herramienta workflow
+on: 
+  workflow_dispatch:
+jobs:
+  Tarea1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Holaaaa
+      run: echo "Hello World"
+      
