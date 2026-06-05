@@ -11,3 +11,10 @@ jobs:
     - name: Holaaaa
       run: echo "Hello World"
       
+    - name: Fecha
+      run: echo "El día de hoy es $(date +'%A, %d de %B de %Y')"
+
+    - name: Actualizacion
+      run: sudo apt update 
+
+      
