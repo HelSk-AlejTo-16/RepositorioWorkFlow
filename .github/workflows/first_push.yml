@@ -1,0 +1,13 @@
+#Leonel Alejandro Torres Pérez
+name: First_Push
+on: 
+  push:
+jobs:
+  Tarea1:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Say Ayy
+       run: |
+         echo "Hi fella, my first push" 
+         echo "My name is Leonel Torres" 
