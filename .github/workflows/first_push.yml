@@ -22,6 +22,14 @@ jobs:
         echo Rama:"${{ github.ref_name }}"
         echo Repositorio "${{github.repository}}"
 
-      
-         
+     - name: pull_request
+       run: |
+        echo "Datos Pull Request:" 
+        echo "Datos destino: ${{github.event.pull_request.base.ref}}"
+    
+        echo "Datos origen (Head branch): ${{ github.event.pull_request.head.ref }}"
+        echo "Título: ${{ github.event.pull_request.title }}"
+        echo "Contenido del PR: ${{ github.event.pull_request.body }}"
+        echo "Estado: ${{ github.event.pull_request.state }}"
+        echo "Ya fue fusionado?: ${{ github.event.pull_request.merged }}"
          
