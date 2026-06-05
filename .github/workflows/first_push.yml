@@ -11,3 +11,17 @@ jobs:
        run: |
          echo "Hi fella, my first push" 
          echo "My name is Leonel Torres" 
+         
+     - name: push_actions
+       run: |
+        echo "Datos del Push:"
+        echo "ID (Commit): ${{ github.sha }}"
+        echo "Mensaje ${{github.event.head_commit.message}}"
+        echo "Autor: ${{github.event.commits.author.name}}"
+        echo "URL: ${{github.event.head_commit.url}}"
+        echo Rama:"${{ github.ref_name }}"
+        echo Repositorio "${{github.repository}}"
+
+      
+         
+         
