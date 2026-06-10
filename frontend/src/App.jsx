@@ -55,12 +55,12 @@ function App() {
           <p>Encuéntrame en las redes</p>
           <ul>
             <li>
-              <a href="https://github.com/tu-usuario" target="_blank">
+              <a href="https://github.com/tu-usuario" target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/tu-usuario" target="_blank">
+              <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
             </li>
