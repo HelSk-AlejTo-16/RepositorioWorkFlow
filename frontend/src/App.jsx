@@ -20,7 +20,7 @@ function App() {
 
         <div>
           <h1>Leonel Alejandro Torres Pérez</h1>
-          <p>Desarrollador de software · México</p>
+          <p>Desarrollador de software · México 9 de Junio del 2026</p>
           <p style={{ marginTop: '0.5rem' }}>
             Edita <code>src/App.jsx</code> y guarda para probar <code>HMR</code>
           </p>
