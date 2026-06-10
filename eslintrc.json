@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["*.vue"],
+      "extends": [
+        "plugin:vue/vue3-recommended",
+        "eslint:recommended"
+      ],
+      "parser": "vue-eslint-parser"
+    },
+    {
+      "files": ["*.jsx", "*.tsx", "react/**/*.js"],
+      "extends": [
+        "plugin:react/recommended",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "settings": {
+        "react": {
+          "version": "detect"
+        }
+      }
+    }
+  ]
+}

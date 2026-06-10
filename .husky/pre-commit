@@ -1,0 +1,3 @@
+echo "Revisando código del frontend..."
+cd frontend
+npx lint-staged

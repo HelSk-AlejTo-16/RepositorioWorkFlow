@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
@@ -11,102 +8,65 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <div className="avatar-base">LAT</div>
+          <div className="badge-orbit">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
         </div>
+
         <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+          <h1>Leonel Alejandro Torres Pérez</h1>
+          <p>Desarrollador de software · México</p>
+          <p style={{ marginTop: '0.5rem' }}>
+            Edita <code>src/App.jsx</code> y guarda para probar <code>HMR</code>
           </p>
         </div>
+
         <button
           type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Me han saludado {count} veces
         </button>
       </section>
 
       <div className="ticks"></div>
 
       <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+        <div id="about">
+          <h2>Sobre mí</h2>
+          <p>Apasionado por crear experiencias web modernas y eficientes.</p>
+          <div className="chips">
+            <span className="skill-chip">React</span>
+            <span className="skill-chip">Vite</span>
+            <span className="skill-chip">JavaScript</span>
+            <span className="skill-chip">CSS</span>
+            <span className="skill-chip">Node.js</span>
+          </div>
         </div>
+
         <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>Conéctate</h2>
+          <p>Encuéntrame en las redes</p>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
+              <a href="https://github.com/tu-usuario" target="_blank">
                 GitHub
               </a>
             </li>
             <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
+              <a href="https://linkedin.com/in/tu-usuario" target="_blank">
+                LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
+              <a href="mailto:leonel@example.com">
+                Email
               </a>
             </li>
           </ul>
