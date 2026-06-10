@@ -1,0 +1,25 @@
+{
+  "name": "repositorioworkflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelSk-AlejTo-16/RepositorioWorkFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HelSk-AlejTo-16/RepositorioWorkFlow/issues"
+  },
+  "homepage": "https://github.com/HelSk-AlejTo-16/RepositorioWorkFlow#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
