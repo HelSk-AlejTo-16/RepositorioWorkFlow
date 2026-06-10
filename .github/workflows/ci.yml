@@ -47,7 +47,7 @@ jobs:
           node-version: '20'
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm install --legacy-peer-deps
         working-directory: frontend
 
       - name: Deploy a Vercel
